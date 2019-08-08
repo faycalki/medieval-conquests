@@ -137,11 +137,6 @@ This project is licensed under MIT, so feel free to contribute and re-release th
 This module had been built on top of 1257AD's source code, with several contributors listed in the taleworlds page.
 
 ## Links
-
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
 - Project homepage: https://www.moddb.com/mods/medieval-conquests
 - Mirror 1: https://www.nexusmods.com/mbwarband/mods/6128
 - Mirror 2: https://forums.taleworlds.com/index.php?topic=349371.0
