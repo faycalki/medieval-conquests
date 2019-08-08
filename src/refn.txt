@@ -1,0 +1,134 @@
+############################# Main factions (Major & Minor) Begin
+   Teutonic Order: 0x00e9e9e9
+		Lithuania: 0x00badeb2
+	 Golden horde: 0x00a33e32
+		  Denmark: 0x009b1a1a
+		   Polish: 0x00ff0000
+Holy roman empire: 0x00ffcc00
+		  Hungary: 0x00289327
+Novogord republic: 0x009e0b6f
+		  England: 0x00931124
+		   France: 0x00002395
+		   Norway: 0x006669d6
+		 Scotland: 0x0022d8a7
+		  Gaelics: 0x0077b322
+		   Sweden: 0x003254b5
+		   Halych: 0x00ece874
+		 Portugal: 0x00003399
+		   Aragon: 0x0007b233
+		 Castille: 0x00d85ac4
+		  Navarre: 0x00f7f497
+		  Granada: 0x00abc904
+		   Papacy: 0x00fff17a
+	   Byzantines: 0x00760d0d
+		Crusaders: 0x00f3efb8
+		  Sicilia: 0x00799cb5
+		  Mamluks: 0x00ebe800
+		   Latins: 0x00b26248
+   	  Illkhanates: 0x00e19004
+   Hafsid Dynasty: 0x00a48460
+		   Serbia: 0x00b38263
+		 Bulgaria: 0x0076a296
+		 Marinids: 0x00c1272d
+		   Venice: 0x00c1172d
+	  Yotvingians: 0x003e7583
+		Prussians: 0x0065c0d7
+		Curonians: 0x003e7583
+	  Samogitians: 0x00529cae
+			Wales: 0x0000dc00
+			Genoa: 0x00e1900a
+			 Pisa: 0x0007e233
+		  Guelphs: 0x003254e5
+	  Ghillibines: 0x009e026a
+		  Bohemia: 0x00e8e8e8
+############################# Main factions (Major & Minor) End
+
+############################# Edited factions for minor factions by Yuki Begin
+
+
+   Teutonic Order: 0x00c9c9c9
+		Lithuania: 0x009DC196
+	 Golden horde: 0x00a33e32
+		  Denmark: 0x00EC5D4C
+		   Polish: 0x00FF5A5A
+Holy roman empire: 0x00BD9700
+		  Hungary: 0x003DD93B
+Novogord republic: 0x00E714A3
+		  England: 0x00DE3622
+		   France: 0x003D69FA
+		   Norway: 0x00FF3737
+		 Scotland: 0x00157B5F
+		  Gaelics: 0x0090E715
+		   Sweden: 0x00668EFF
+		   Halych: 0x00FFF826
+		 Portugal: 0x000055FF
+		   Aragon: 0x0004681E
+		 Castille: 0x0078366E
+		  Navarre: 0x00ADAA6A
+		  Granada: 0x00586800
+		   Papacy: 0x00F0D80B
+	   Byzantines: 0x004E0000
+		Crusaders: 0x00FFFFFF
+		  Sicilia: 0x003B5D75
+		  Mamluks: 0x007A7800
+		   Latins: 0x00FF8C66
+   	  Illkhanates: 0x00855400
+   Hafsid Dynasty: 0x006F6457
+		   Serbia: 0x00B86938
+		 Bulgaria: 0x004C6961
+		 Marinids: 0x00BB4C50
+		   Venice: 0x00B916B4
+	  Yotvingians: 0x006C8B93
+		Prussians: 0x0048DAFF
+		Curonians: 0x00B1EFFF
+	  Samogitians: 0x00376571
+			Wales: 0x00A0D1A0
+			Genoa: 0x00FFAD26
+			 Pisa: 0x00F19E0E
+		  Guelphs: 0x00A1ADE1
+	  Ghillibines: 0x00D8239C
+		  Bohemia: 0x00000000
+
+############################# Edited factions for minor factions by Yuki end
+	(str_clear,s10),
+    (str_clear,s11),
+    (str_clear,s12),
+    (str_clear,s13),
+    (str_clear,s14),
+    (str_clear,s15),
+	#(str_clear, 10),
+	#(str_clear, 11),
+	#(str_clear, 12),
+	#(str_clear, 13),
+	#(str_clear, 14),
+	#(str_clear, 15)
+	
+	disown = (assign, "$background_answer_4", 5),
+
+
+"$character_gender", 0), = 	tf_male),	"$character_gender", tf_male), 		
+"$character_gender", 1), = tf_female), 		"$character_gender", tf_female),
+"$background_type", 1), =	"$background_type", cb_noble),						 cb_noble),
+"$background_type", 2), = "$background_type",cb_merchant),
+"$background_type", 3), = "$background_type",cb_guard),
+"$background_type", 4), = "$background_type",cb_forester),
+"$background_type", 5), = "$background_type",cb_nomad),
+"$background_type", 6), = "$background_type",cb_thief),
+
+"$background_answer_2", 0), = "$background_answer_2", cb2_page),
+"$background_answer_2", 1), = "$background_answer_2", cb2_apprentice),
+"$background_answer_2", 4), = "$background_answer_2",cb2_merchants_helper),
+"$background_answer_2", 2), = "$background_answer_2",cb2_urchin),
+"$background_answer_2", 3), = "$background_answer_2",cb2_steppe_child),
+"$background_answer_3", 8), = 	"$background_answer_3", cb3_squire),						 cb3_squire
+"$background_answer_3", 9), = "$background_answer_3", cb3_lady_in_waiting),					cb3_lady_in_waiting
+"$background_answer_3", 7), = #DONT ADD
+"$background_answer_3", 10), =  	"$background_answer_3", cb3_student),				 cb3_student
+"$background_answer_3", 5), = 		"$background_answer_3", cb3_peddler),
+"$background_answer_3", 4), = 		"$background_answer_3", cb3_craftsman),
+"$background_answer_3", 3), =		 "$background_answer_3", cb3_poacher),							 cb3_poacher),
+"$background_answer_4", 1), = 		"$background_answer_4", cb4_revenge),
+"$background_answer_4", 2), = 		"$background_answer_4", cb4_loss),					cb4_loss),
+"$background_answer_4", 3), =		"$background_answer_4", cb4_wanderlust), 			cb4_wanderlust),
+"$background_answer_4", 5), = 	"$background_answer_4", cb4_disown),
+"$background_answer_4", 6), =	"$background_answer_4", cb4_greed),  					cb4_greed),

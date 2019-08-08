@@ -1,0 +1,844 @@
+#Some kingdoms are missing ladies, such as kingdom_1, and kingdom_21 and so on.
+minimum of 8 ladies per kingdom, the facecodes are at the end of the code, for example kingdom_2_lady_1 facecode is: 0x0000000d450c1003579d794d9946b8ed00000000001e26c90000000000000000
+when creating new ladies, take facecodes from different ladies so that there aren't too many clones of a single lady.
+Lady Audra is the name, Audra is the name that will appear in the game, only switch the parts after Lady
+So for example: "Lady Yukeh" "Yukeh" < But obviously don't use that name.
+	["kingdom_2_lady_1", "Lady Audra", "Audra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d450c1003579d794d9946b8ed00000000001e26c90000000000000000],
+
+	["kingdom_2_lady_2", "Lady Aušra", "Aušra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d4f0000055751af14ab91ac5e000000000015ab760000000000000000],
+
+	["kingdom_2_lady_3", "Lady Birute", "Birute", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d6b0420053d2cc9d552f93cad000000000018dcd60000000000000000],
+
+	["kingdom_2_lady_4", "Lady Giedre", "Giedre", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d7e082001569a4d9d347a434b00000000001656950000000000000000],
+
+	["kingdom_2_lady_5", "Lady Gintare", "Gintare", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d43000006449476271a8e42dc00000000001594f30000000000000000],
+
+	["kingdom_2_lady_6", "Lady Ieva", "Ieva", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d421000052c6c51f72a91572c000000000006a95a0000000000000000],
+
+	["kingdom_2_lady_7", "Lady Laima", "Laima", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000d7d0800022b0b2a2ad350aadc00000000001936a50000000000000000],
+
+	["kingdom_2_lady_8", "Lady Rimgaile", "Rimgaile", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001661010025b2a72390b8a675c000000000012a2d80000000000000000],
+
+	["kingdom_2_lady_9", "Lady Morta", "Morta", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000017008100246ea6cab9b8d2721000000000018d9220000000000000000],
+
+	["kingdom_2_lady_10", "Lady Egle", "Egle", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001620c10074315b0396a65e76b0000000000099b140000000000000000],
+
+	["kingdom_2_lady_11", "Lady Gabija", "Gabija", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000017208200347ad41cd0c935773000000000016b7540000000000000000],
+
+	["kingdom_2_lady_12", "Lady Danute", "Danute", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000016f0c100355b494b8a37b26e5000000000009c7e50000000000000000],
+
+	["kingdom_2_lady_13", "Lady Milda", "Milda", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000017410000304e1aaa54553552b00000000000d188a0000000000000000],
+
+	["kingdom_2_lady_14", "Lady Rasa", "Rasa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001770820033285a658d572c56400000000001e46d90000000000000000],
+
+	["kingdom_2_lady_15", "Lady Svajone", "Svajone", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_2, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000014908000258e0b1c6699223aa00000000000996940000000000000000],
+
+	["kingdom_3_lady_1", "Lady Borge", "Borge", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003f0830014cd3b5b913aa16de00000000001cb92c0000000000000000],
+
+	["kingdom_3_lady_2", "Lady Tuan", "Tuan", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001f08300238d351d65650c4da00000000001e24e30000000000000000],
+
+	["kingdom_3_lady_3", "Lady Mahraz", "Mahraz", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001f003001390c4ca36835a8e200000000001d4b2c0000000000000000],
+
+	["kingdom_3_lady_4", "Lady Ayasu", "Ayasu", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000340c3007595a35a923ce38aa00000000001e4c920000000000000000],
+
+	["kingdom_3_lady_5", "Lady Ravin", "Ravin", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000cea0030053849b35c999538dc00000000001d132c0000000000000000],
+
+	["kingdom_3_lady_6", "Lady Ruha", "Ruha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000cec10300635633145343246de00000000000a555c0000000000000000],
+
+	["kingdom_3_lady_7", "Lady Chedina", "Chedina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000ccd10300538de7238a48c971a00000000001cb9260000000000000000],
+
+	["kingdom_3_lady_8", "Lady Kefra", "Kefra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000ccd0430062b64965b1445ba6500000000001d49240000000000000000],
+
+	["kingdom_3_lady_9", "Lady Nirvaz", "Nirvaz", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f0008300264a2cb490c6e5b2500000000001ebaa30000000000000000],
+
+	["kingdom_3_lady_10", "Lady Dulua", "Dulua", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f01003003068c8636ea90b71900000000001da4ee0000000000000000],
+
+	["kingdom_3_lady_11", "Lady Selik", "Selik", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f080430032b6075329573589d00000000001db5440000000000000000],
+
+	["kingdom_3_lady_12", "Lady Thalatha", "Thalatha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f2b043005271f69229eada65b00000000001dc89b0000000000000000],
+
+	["kingdom_3_lady_13", "Lady Yasreen", "Yasreen", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f34003005499fa5b0375244da00000000001dd52c0000000000000000],
+
+	["kingdom_3_lady_14", "Lady Nadha", "Nadha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f1400300767675656528638a300000000001d26de0000000000000000],
+
+	["kingdom_3_lady_15", "Lady Zenur", "Zenur", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f1a04300114778aad168b24e600000000001dd75d0000000000000000],
+
+	["kingdom_3_lady_16", "Lady Arjis", "Zenur", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000f00083005269f6e391c50a66100000000001d97650000000000000000],
+
+	["kingdom_3_lady_17", "Lady Atjahan", "Atjahan", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001410300347676e366a52acd400000000001dd1750000000000000000],
+
+	["kingdom_3_lady_18", "Lady Qutala", "Qutala", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000030830054d976938ea45466900000000001dd7540000000000000000],
+
+	["kingdom_3_lady_19", "Lady Hindal", "Hindal", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000002103004355f6ad05a6c96b100000000001f49650000000000000000],
+
+	["kingdom_3_lady_20", "Lady Bolormaa", "Bolormaa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_3, [itm_brown_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000023043006291f8cd2d30f532500000000001cb28a0000000000000000],
+
+	["kingdom_4_lady_1", "Margrettæ Sprengæhestr Sambiria Drotning", "Margrettæ Sprengæhestr Sambiria Drotning", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_4_lady_2", "Margrettæ aff Suþrjodlande ", "Margrettæ aff Suþrjodlande ", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_4_lady_3", "Ingeburgh Espensdotter hin hwiþæ af Burgh", "Ingeburgh Espensdotter hin hwiþæ af Burgh", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_4_lady_4", "Agnes aff Brandæburgh", "Agnes aff Brandæburgh", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000000021564d196e2aa279400000000001dc4ed0000000000000000],
+
+	["kingdom_4_lady_5", "Mectilde aff Holsteinælande", "Mectilde aff Holsteinælande", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_4_lady_6", "Ingegerþr Jacobsdotter hin hwiþæ", "Ingegerþr Jacobsdotter hin hwiþæ", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_4_lady_7", "Margrettæ Stigsdotter", "Margrettæ Stigsdotter", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_4_lady_8", "Ingefredr Nielsdotter", "Ingefredr Nielsdotter", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000000021564d196e2aa279400000000001dc4ed0000000000000000],
+
+	["kingdom_4_lady_9", "Cecellie Jensdotter", "Cecellie Jensdotter", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_4_lady_10", "Margrettæ aff Pomerania", "Margrettæ aff Pomerania", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_4_lady_11", "Sofie hin Hwiþæ", "Sofie hin Hwiþæ", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_4_lady_12", "Cecellie Niellsdotter", "Cecellie Niellsdotter", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000000021564d196e2aa279400000000001dc4ed0000000000000000],
+
+	["kingdom_4_lady_13", "Ingeburgh aff Holsteinælandæ", "Ingeburgh aff Holsteinælandæ", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_4_lady_14", "Mectilde af Brandeburgh", "Mectilde af Brandeburgh", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_4_lady_15", "Marianne Petrsdotter Strange", "Marianne Petrsdotter Strange", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_4, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_5_lady_1", "Lady Bogdana", "Bogdana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000007e900200416ed96e88b8d595a00000000001cb8ac0000000000000000],
+
+	["kingdom_5_lady_2", "Lady Bogumila", "Bogumila", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000057008200222d432cf6d4a2ae300000000001d37a10000000000000000],
+
+	["kingdom_5_lady_3", "Lady Boleslawa", "Boleslawa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001b9002002364dd8aa5475d76400000000001db8d30000000000000000],
+
+	["kingdom_5_lady_4", "Lady Wszebora", "Wszebora", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000057a0000014123dae69e8e48e200000000001e08db0000000000000000],
+
+	["kingdom_5_lady_5", "Lady Radochna", "Radochna", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000],
+
+	["kingdom_5_lady_6", "Lady Boguwola", "Boguwola", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000bf0400035913aa236b4d975a00000000001eb69c0000000000000000],
+
+	["kingdom_5_lady_7", "Lady Bolemira", "Bolemira", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001b9002002364dd8aa5475d76400000000001db8d30000000000000000],
+
+	["kingdom_5_lady_8", "Lady Ciecirada", "Ciecirada", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000057a0000014123dae69e8e48e200000000001e08db0000000000000000],
+
+	["kingdom_5_lady_9", "Lady Dobrawa", "Dobrawa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000007e900200416ed96e88b8d595a00000000001cb8ac0000000000000000],
+
+	["kingdom_5_lady_10", "Lady Dobrogniewa", "Dobrogniewa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000057008200222d432cf6d4a2ae300000000001d37a10000000000000000],
+
+	["kingdom_5_lady_11", "Lady Dobrowoja", "Dobrowoja", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001b9002002364dd8aa5475d76400000000001db8d30000000000000000],
+
+	["kingdom_5_lady_12", "Lady Godzimira", "Godzimira", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000057a0000014123dae69e8e48e200000000001e08db0000000000000000],
+
+	["kingdom_5_lady_13", "Lady Imislawa", "Imislawa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000007e900200416ed96e88b8d595a00000000001cb8ac0000000000000000],
+
+	["kingdom_5_lady_14", "Lady Jaromira", "Jaromira", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000057008200222d432cf6d4a2ae300000000001d37a10000000000000000],
+
+	["kingdom_5_lady_15", "Lady Kazimiera", "Kazimiera", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_5, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001b9002002364dd8aa5475d76400000000001db8d30000000000000000],
+
+	["kingdom_6_lady_1", "Lady Anna", "Anna", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_6_lady_2", "Lady Nelda", "Nelda", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_6_lady_3", "Lady Bela", "Bela", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_6_lady_4", "Lady Elina", "Elina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_6_lady_5", "Lady Constanis", "Constanis", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_6_lady_6", "Lady Vera", "Vera", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_6_lady_7", "Lady Auberina", "Auberina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_6_lady_8", "Lady Tibal", "Tibal", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_6_lady_9", "Lady Magar", "Magar", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_6_lady_10", "Lady Thedosa", "Thedosa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_6_lady_11", "Lady Melisar", "Melisar", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_6_lady_12", "Lady Irena", "Irena", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003f04100148d245d6526d456b00000000001e3b350000000000000000],
+
+	["kingdom_6_lady_13", "Lady Philenna", "Philenna", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_6_lady_14", "Lady Sonadel", "Sonadel", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a0c3003358a56d51c8e399400000000000944dc0000000000000000],
+
+	["kingdom_6_lady_15", "Lady Boadila", "Boadila", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_6_lady_16", "Lady Elys", "Elys", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003b080003531e8932e432bb5a000000000008db6a0000000000000000],
+
+	["kingdom_6_lady_17", "Lady Johana", "Johana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000446e4b4c2cc5234d200000000001ea3120000000000000000],
+
+	["kingdom_6_lady_18", "Lady Bernatys", "Bernatys", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000000083006465800000901161200000000001e38cc0000000000000000],
+
+	["kingdom_6_lady_19", "Lady Enricata", "Enricata", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000],
+
+	["kingdom_6_lady_20", "Lady Gaeta", "Gaeta", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_6, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_7_lady_1", "Lady Adrienn", "Adrienn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_7_lady_2", "Lady Agi", "Agi", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_7_lady_3", "Lady Emese", "Emese", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_7_lady_4", "Lady Eniko", "Eniko", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_7_lady_5", "Lady Dorottya", "Dorottya", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_7_lady_6", "Lady Fruzsina", "Fruzsina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_7_lady_7", "Lady Gyongyi", "Gyongyi", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_7_lady_8", "Lady Hajnal", "Hajnal", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_7_lady_9", "Lady Ilona", "Ilona", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_7_lady_10", "Lady Krisztina", "Krisztina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_7_lady_11", "Lady Magdolna", "Magdolna", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_7_lady_12", "Lady Orsolya", "Orsolya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003f04100148d245d6526d456b00000000001e3b350000000000000000],
+
+	["kingdom_7_lady_13", "Lady Csilla", "Csilla", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_7_lady_14", "Lady Eneh", "Eneh", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a0c3003358a56d51c8e399400000000000944dc0000000000000000],
+
+	["kingdom_7_lady_15", "Lady Franciska", "Franciska", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_7, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_8_lady_1", "Lady Alyona", "Alyona", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_8_lady_2", "Lady Alya", "Alya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["knight_8_lady_3", "Lady Galina", "Galina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["knight_8_lady_4", "Lady Irina", "Irina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_8_lady_5", "Lady Larissa", "Larissa", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_8_lady_6", "Lady Ludmila", "Ludmila", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_8_lady_7", "Lady Natasha", "Natasha", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_8_lady_8", "Lady Svetlana", "Svetlana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_8_lady_9", "Lady Tatyana", "Tatyana", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_8_lady_10", "Lady Zoya", "Zoya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_8, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_9_lady_1", "Reine Eleanor de Provence", "Reine Eleanor", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_2", "Princesse Eléonore d'Angleterre", "Eléonore d'Angleterre", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_3", "Lady Joan de Munchensy, Countess of Pembroke", "Joan de Munchensy", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_4", "Lady Maud de Lacy", "Maud de Lacy", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_5", "Lady Maud de Braose", "Maud de Braose", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_6", "Lady Alice le Brun de Lusignan", "Alice le Brun de Lusignan", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_7", "Lady Avita of Savoy", "Avita of Savoy", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wpex(55,52,50,50,52,54), knows_riding_3|knows_common, 0x00000007c0101002588caf17142ab93d00000000001ddfa40000000000000000],
+
+	["kingdom_9_lady_8", "Lady Clara", "Clara", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_9_lady_9", "Lady Crystina", "Crystina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_9_lady_10", "Lady Diana", "Diana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_9_lady_11", "Lady Ebeta", "Ebeta", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_9_lady_12", "Lady Felicia", "Felicia", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003f04100148d245d6526d456b00000000001e3b350000000000000000],
+
+	["kingdom_9_lady_13", "Lady Helen", "Helen", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_9_lady_14", "Lady Gunnild", "Gunnild", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a0c3003358a56d51c8e399400000000000944dc0000000000000000],
+
+	["kingdom_9_lady_15", "Lady Gunora", "Gunora", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_9_lady_16", "Lady Harsent", "Harsent", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003b080003531e8932e432bb5a000000000008db6a0000000000000000],
+
+	["kingdom_9_lady_17", "Lady Isabel", "Isabel", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000446e4b4c2cc5234d200000000001ea3120000000000000000],
+
+	["kingdom_9_lady_18", "Lady Isolda", "Isolda", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000000083006465800000901161200000000001e38cc0000000000000000],
+
+	["kingdom_9_lady_19", "Lady Matildis", "Matildis", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000],
+
+	["kingdom_9_lady_20", "Lady Quynel", "Quynel", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_9, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_1", "Lady Adalgardis", "Adalgardis", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_10_lady_2", "Lady Adelaidis", "Adelaidis", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_10_lady_3", "Lady Aaline", "Aaline", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_10_lady_4", "Lady Adelie", "Adelie", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_10_lady_5", "Lady Agace", "Agace", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_6", "Lady Alainne", "Alainne", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_10_lady_7", "Lady Cateline", "Cateline", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_8", "Lady Clarice", "Clarice", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_10_lady_9", "Lady Dane", "Dane", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_10", "Lady Edeline", "Edeline", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_10_lady_11", "Lady Elainne", "Elainne", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_12", "Lady Farine", "Farine", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003f04100148d245d6526d456b00000000001e3b350000000000000000],
+
+	["kingdom_10_lady_13", "Lady Florie", "Florie", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_14", "Lady Isabelot", "Isabelot", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a0c3003358a56d51c8e399400000000000944dc0000000000000000],
+
+	["kingdom_10_lady_15", "Lady Jaqueline", "Jaqueline", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_10_lady_16", "Lady Jehenne", "Jehenne", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003b080003531e8932e432bb5a000000000008db6a0000000000000000],
+
+	["kingdom_10_lady_17", "Lady Jivete", "Jivete", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000446e4b4c2cc5234d200000000001ea3120000000000000000],
+
+	["kingdom_10_lady_18", "Lady Lore", "Lore", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000000083006465800000901161200000000001e38cc0000000000000000],
+
+	["kingdom_10_lady_19", "Lady Lorete", "Lorete", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000],
+
+	["kingdom_10_lady_20", "Lady Lyonnete", "Lyonnete", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_10, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_11_lady_1", "Margretu Drottning Skulesdotter", "Margretu Drottning Skulesdotter", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_11_lady_2", "Inngibiargar Bårdsdotter", "Inngibiargar Bårdsdotter", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_11_lady_3", "Lady Ragnfriðr", "Ragnfriðr", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_11_lady_4", "Lady Kristin", "Kristin", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000000021564d196e2aa279400000000001dc4ed0000000000000000],
+
+	["kingdom_11_lady_5", "Lady Agnes", "Agnes", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_11_lady_6", "Lady Mectilde", "Mectilde", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_11_lady_7", "Lady Bergdir", "Bergdir", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_11_lady_8", "Lady Ingefredr", "Ingefredr", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000000021564d196e2aa279400000000001dc4ed0000000000000000],
+
+	["kingdom_11_lady_9", "Lady Sofie", "Sofie", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_11_lady_10", "Lady Ingeburgh", "Ingeburgh", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_11_lady_11", "Lady Erica", "Erica", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_11_lady_12", "Lady Freya", "Freya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000000021564d196e2aa279400000000001dc4ed0000000000000000],
+
+	["kingdom_11_lady_13", "Lady Frika", "Frika", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054b100003274d65d2d239eb1300000000001d49080000000000000000],
+
+	["kingdom_11_lady_14", "Lady Froujke", "Froujke", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000058610000664d3693664f0c54b00000000001d332d0000000000000000],
+
+	["kingdom_11_lady_15", "Lady Gala", "Gala", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_11, [itm_peasant_dress, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x00000000000c000469a4d5cda4b1349c00000000001cd6600000000000000000],
+
+	["kingdom_12_lady_1", "Christiana de Brus", "Christiana de Brus", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_12_lady_2", "Lady Marjory", "Marjory", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_12_lady_3", "Isabella, Countess of Menteith", "Isabella", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_12_lady_4", "Elen ferch Llywelyn", "Elen ferch Llywelyn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_12_lady_5", "Lady Marjorie", "Marjorie", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_12_lady_6", "Elisabeth Comyn", "Elisabeth Comyn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_12_lady_7", "Matilda of Orkney and Caithness ", "Matilda", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_12_lady_8", "Jean of Bute", "Jean of Bute", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_12_lady_9", "Marjory de Abernethy", "Marjory de Abernethy", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_12_lady_10", "Johanna Comyn", "Johanna Comyn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_12, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_13_lady_1", "Lady Aideen", "Aideen", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_13_lady_2", "Lady Aine", "Aine", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_13_lady_3", "Lady Beibhinn", "Beibhinn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_13_lady_4", "Lady Caoimhe", "Caoimhe", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_13_lady_5", "Lady Daimhin", "Daimhin", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_13_lady_6", "Lady Fianna", "Fianna", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_13_lady_7", "Lady Muirgheal", "Muirgheal", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_13_lady_8", "Lady Sheelagh", "Sheelagh", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_13_lady_9", "Lady Yseult", "Yseult", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_13_lady_10", "Lady Ryanne", "Ryanne", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_13, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_14_lady_1", "Lady Rayma", "Rayma", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_14_lady_2", "Lady Thanaikha", "Thanaikha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_14_lady_3", "Lady Sulaha", "Sulaha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_14_lady_4", "Lady Shatha", "Shatha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_14_lady_5", "Lady Bawthan", "Bawthan", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_14_lady_6", "Lady Mahayl", "Mahayl", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_14_lady_7", "Lady Isna", "Isna", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_14_lady_8", "Lady Siyafan", "Siyafan", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_14_lady_9", "Lady Ifar", "Ifar", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_14_lady_10", "Lady Yasmin", "Yasmin", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_14_lady_11", "Lady Dula", "Dula", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_14_lady_12", "Lady Ruwa", "Ruwa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003f04100148d245d6526d456b00000000001e3b350000000000000000],
+
+	["kingdom_14_lady_13", "Lady Luqa", "Luqa", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_14_lady_14", "Lady Zandina", "Zandina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a0c3003358a56d51c8e399400000000000944dc0000000000000000],
+
+	["kingdom_14_lady_15", "Lady Lulya", "Lulya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_14, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_15_lady_1", "Lady Alyona", "Alyona", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_15_lady_2", "Lady Alya", "Alya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_15_lady_3", "Lady Galina", "Galina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_15_lady_4", "Lady Irina", "Irina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_15_lady_5", "Lady Larissa", "Larissa", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_15_lady_6", "Lady Ludmila", "Ludmila", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_15_lady_7", "Lady Natasha", "Natasha", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_15_lady_8", "Lady Svetlana", "Svetlana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_15_lady_9", "Lady Tatyana", "Tatyana", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_15_lady_10", "Lady Zoya", "Zoya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_15, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_16_lady_1", "Elvira", "Elvira", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_16_lady_2", "Orraca", "Orraca", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_16_lady_3", "Violante", "Violante", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_16_lady_4", "Guymar", "Guymar", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_16_lady_5", "Isabel", "Isabel", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_16_lady_6", "Guiomar", "Guiomar", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_16_lady_7", "Violate", "Violate", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_16_lady_8", "Maria", "Maria", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_16_lady_9", "Beatriz", "Beatriz", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_16_lady_10", "Juana", "Juana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_16_lady_11", "Marina ", "Marina ", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_16_lady_12", "Pascuala", "Pascuala", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_16_lady_13", "Teresa", "Teresa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_16_lady_14", "Margarida", "Margarida", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_16_lady_15", "Manuela", "Manuela", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_16, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_17_lady_1", "Aldonza", "Aldonza", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_17_lady_2", "Beatriz", "Beatriz", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_17_lady_3", "Constanza", "Constanza", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_17_lady_4", "Cristina", "Cristina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_17_lady_5", "Elo", "Elo", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_17_lady_6", "Elvira", "Elvira", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_17_lady_7", "Enderquina", "Enderquina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_17_lady_8", "Ermengarda", "Ermengarda", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_17_lady_9", "Estefania", "Estefania", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_17_lady_10", "Eva", "Eva", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_17_lady_11", "Fronilde", "Fronilde", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_17_lady_12", "Guntroda", "Guntroda", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_17_lady_13", "Ildaria", "Ildaria", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_17_lady_14", "Ines", "Ines", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_17_lady_15", "Jimena", "Jimena", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_17, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_18_lady_1", "Paterna", "Paterna", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_18_lady_2", "Sancha", "Sancha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_18_lady_3", "Tegrida", "Tegrida", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_18_lady_4", "Teresa", "Teresa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_18_lady_5", "Toda", "Toda", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_18_lady_6", "Urraca", "Urraca", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_18_lady_7", "Ildaria", "Ildaria", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_18_lady_8", "Ermengarda", "Ermengarda", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_18_lady_9", "Ynes", "Ynes", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_18_lady_10", "Beatriz", "Beatriz", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_18_lady_11", "Francisca", "Francisca", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_18_lady_12", "Leonor", "Leonor", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_18_lady_13", "Ana", "Ana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_18_lady_14", "Teresa", "Teresa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_18_lady_15", "Mencia", "Mencia", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_18, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_1", "Amira Fatima", "Fatima", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_20_lady_2", "Amira Mu'mina", "Mu'mina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_20_lady_3", "Amira Khadija", "Khadija", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_20_lady_4", "Amira Shams", "Shams", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_20_lady_5", "Amira Maryem", "Maryem", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_6", "Amira Butayna", "Butayna", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_20_lady_7", "Amira Zoraya", "Zoraya", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_8", "Amira Morayma", "Morayma", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_20_lady_9", "Amira Zubayda", "Zubayda", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_10", "Amira Ishraq", "Ishraq", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_20_lady_11", "Amira Yamina", "Yamina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_20_lady_12", "Amira Suna", "Suna", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_20_lady_13", "Amira Rima", "Rima", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_20_lady_14", "Amira Sayyida", "Sayyida", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_20_lady_15", "Amira Jariya", "Jariya", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_16", "Amira Bazzu", "Bazzu", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_20_lady_17", "Amira Amina", "Amina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_18", "Amira Judur", "Judur", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_20_lady_19", "Amira Sitt", "Sitt", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_20_lady_10", "Amira Ishraq", "Ishraq", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_20, [itm_leather_boots, itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_22_lady_1", "Maria Laskarina", "Maria Laskarina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_22_lady_2", "Theodora Raoulina", "Theodora Raoulina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_22_lady_3", "Helena Doukaina", "Helena Doukaina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_22_lady_4", "Anna Theologitissa", "Anna Theologitissa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_22_lady_5", "Maria Doukaina", "Maria Doukaina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_22_lady_6", "Eudocia Aprini", "Eudocia Aprini", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_22_lady_7", "Theodora Sparteni", "Theodora Sparteni", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_22_lady_8", "Maria Tsaphaina", "Maria Tsaphaina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_22_lady_9", "Thomais Maniacena", "Thomais Maniacena", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_22_lady_10", "Zoe Balsamaena", "Zoe Balsamaena", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_22_lady_11", "Anna Paleologina", "Anna Paleologina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_22_lady_12", "Maria", "Maria", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_22_lady_13", "Theodora", "Theodora", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_22_lady_14", "Helena", "Helena", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_22_lady_15", "Anna", "Anna", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_22, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_23_lady_1", "Princesse Lucia", "Princesse Lucia", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_23_lady_2", "Sibylle d'Arménie", "Sibylle d'Arménie", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_23_lady_3", "Dame Isabelle d'Ibelin", "Dame d'Ibelin", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_23_lady_4", "Dame Alix de Montbéliard", "Dame de Montbéliard", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_23_lady_5", "Dame Alix de Bethsan", "Dame de Bethsan", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_23_lady_6", "Dame Plaisance d'Antioche,régente des royaumes de Jérusalem", "Plaisance d'Antioche", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_23_lady_7", "Dame Marguerite de Sidon", "Marguerite de Sidon", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_23_lady_8", "Dame Marie d'Antioche", "Marie d'Antioche", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_23_lady_9", "Euphémie de l'Arménie", "Euphémie de l'Arménie", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_23_lady_10", "Dame Helvis de Montfort", "Dame de Montfort", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_23_lady_11", "Demrons de Saulx", "Demrons de Saulx", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_23_lady_12", "Lady Levonia", "Levonia", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_23_lady_13", "Lady Protasia", "Protasia", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_23_lady_14", "Lady Sabina", "Sabina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_23_lady_15", "Lady Selina", "Selina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_23, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_24_lady_1", "Signora Abriana", "Abriana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_24_lady_2", "Signora Agalina", "Agalina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_24_lady_3", "Signora Ambra", "Ambra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_24_lady_4", "Signora Amina", "Amina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_24_lady_5", "Signora Armida", "Armida", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_24_lady_6", "Signora Chola", "Chola", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_24_lady_7", "Signora Citha", "Citha", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_24_lady_8", "Signora Diletta", "Diletta", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_24_lady_9", "Signora Druda", "Druda", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_24_lady_10", "Signora Etheria", "Etheria", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_24, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_25_lady_1", "Asul", "Asul", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_25_lady_2", "Behiye", "Behiye", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_25_lady_3", "Canhabibe", "Canhabibe", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_25_lady_4", "Devlet", "Devlet", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_25_lady_5", "Dilber", "Dilber", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_25_lady_6", "Dur-cihan", "Dur-cihan", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_25_lady_7", "Emine", "Emine", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_25_lady_8", "Fatima", "Fatima", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_25_lady_9", "Gülbahar", "Gülbahar", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_25_lady_10", "Gülfem", "Gülfem", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_25_lady_11", "Gümüs", "Gümüs", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_25_lady_12", "Hadice", "Hadice", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_25_lady_13", "Hafza", "Hafza", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_25_lady_14", "Huban", "Huban", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_25_lady_15", "Husni", "Husni", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_25_lady_16", "Kadem", "Kadem", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_25_lady_17", "Mansure", "Mansure", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_25_lady_18", "Melike", "Melike", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_25_lady_19", "Nar", "Nar", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_25_lady_20", "Nefise", "Nefise", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_25, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_26_lady_1", "Lady Gertrude", "Gertrude", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_26_lady_2", "Lady Godiva", "Godiva", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_26_lady_3", "Lady Adela", "Adela", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_26_lady_4", "Lady Alice", "Alice", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_26_lady_5", "Lady Eleanor", "Eleanor", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_26_lady_6", "Lady Giselle", "Giselle", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_26_lady_7", "Lady Maynild", "Maynild", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_26_lady_8", "Lady Rosalind", "Rosalind", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_26_lady_9", "Lady Veneranda", "Veneranda", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_26_lady_10", "Lady Ruothilde", "Ruothilde", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_26, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_27_lady_1", "Aigiarn-khatum", "Aigiarn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_27_lady_2", "Borte-khatum", "Borte", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_27_lady_3", "Chabi-khatum", "Chabi", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_27_lady_4", "Conchaka-khatum", "Conchaka", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_27_lady_5", "Doquez-khatum", "Doquez", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_27_lady_6", "Ho'elun-khatum", "Ho'elun", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_27_lady_7", "Khultulun-khatum", "Khultulun", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_27_lady_8", "Kokachin-khatum", "Kokachin", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_27_lady_9", "Mandughai-khatum", "Mandughai", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_27_lady_10", "Orqina-khatum", "Orqina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_27_lady_11", "Toregene-khatum", "Toregene", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_27_lady_12", "Hoelun-khatum", "Hoelun", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_27_lady_13", "Chubei-khatum", "Chubei", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_27_lady_14", "Muqa-khatum", "Muqa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_27_lady_15", "Moge-khatum", "Moge", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_27, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_28_lady_1", "Banah", "Banah", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_28_lady_2", "Bushra", "Bushra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_28_lady_3", "Sakan", "Sakan", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_28_lady_4", "Shifa", "Shifa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_28_lady_5", "Mariyah", "Mariyah", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_28_lady_6", "Kasif", "Kasif", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_28_lady_7", "Fatima", "Fatima", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_28_lady_8", "Hullah", "Hullah", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000002a0840063664cad71b92549b00000000000c990c0000000000000000],
+
+	["kingdom_28_lady_9", "Qaribah", "Qaribah", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_28_lady_10", "Zulaikha", "Zulaikha", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_28_lady_11", "Sanaa", "Sanaa", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000018044006279db910b26909ba0000000000175cf40000000000000000],
+
+	["kingdom_28_lady_12", "Maysun", "Maysun", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003c1040014ae67195ac4cd8e600000000001fd96c0000000000000000],
+
+	["kingdom_28_lady_13", "Ghadir", "Ghadir", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003208400456d2953d6bae330e00000000001df7260000000000000000],
+
+	["kingdom_28_lady_14", "Hawwa", "Hawwa ", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001710400356e34d47626dc2eb0000000000100b210000000000000000],
+
+	["kingdom_28_lady_15", "Bilqis", "Bilqis", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_28, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000f10400748d5309b136a285400000000001da32b0000000000000000],
+
+	["kingdom_29_lady_1", "Hélène", "Hélène", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_29_lady_2", "Beloslava Asen", "Beloslava", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_29_lady_3", "Gospa Bogoslava Vladisavljeva", "Bogoslava Vladisavljeva", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_29_lady_4", "Gospa Vukoslava Andrijina", "Vukoslava Andrijina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_29_lady_5", "Gospa Dragoslava Andrijina", "Dragoslava Andrijina", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_29_lady_6", "Gospa Tatijana", "Tatijana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_29_lady_7", "Gospa Vesna", "Vesna", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_29_lady_8", "Gospa Biljana", "Biljana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_29_lady_9", "Gospa Dijana", "Dijana", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_29_lady_10", "Gospa Mirjana", "Mirjana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_29, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_30_lady_1", "Lady Irina", "Irina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_30_lady_2", "Lady Sofia", "Sofia", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_30_lady_3", "Lady Ana", "Ana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_30_lady_4", "Lady Teodora", "Teodora", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_30_lady_5", "Lady Rada", "Rada", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_30_lady_6", "Lady Blaga", "Blaga", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_30_lady_7", "Lady Miroslava", "Miroslava", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_30_lady_8", "Lady Lyubomira", "Lyubomira", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_30_lady_9", "Lady Zornitza", "Zornitza", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_30_lady_10", "Lady Zoya", "Zoya", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_30, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_31_lady_1", "Lubaba", "Lubaba", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_31_lady_2", "Khayra", "Khayra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_31_lady_3", "Juwayriyyah", "Juwayriyyah", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_31_lady_4", "Jumana", "Jumana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_31_lady_5", "Dahah", "Dahah", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_31_lady_6", "Durra", "Durra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_31_lady_7", "Fazila", "Fazila", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_31_lady_8", "Hababah", "Hababah", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_31_lady_9", "Halima", "Halima", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_31_lady_10", "Hind", "Hind", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
+
+	["kingdom_31_lady_11", "Husn", "Husn", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_31_lady_12", "Jaida", "Jaida", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_31_lady_13", "Kasif", "Kasif", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_31_lady_14", "Khayra", "Khayra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_31_lady_15", "Mayy", "Mayy", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_31, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_32_lady_1", "Signora Abriana", "Abriana", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000055910200107632d675a92b92d00000000001e45620000000000000000],
+
+	["kingdom_32_lady_2", "Signora Agalina", "Agalina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000054f08100232636aa90d6e194b00000000001e43130000000000000000],
+
+	["kingdom_32_lady_3", "Signora Ambra", "Ambra", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000018f0410064854c742db74b52200000000001d448b0000000000000000],
+
+	["kingdom_32_lady_4", "Signora Amina", "Amina", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000204200629b131e90d6a8ae400000000001e28dd0000000000000000],
+
+	["kingdom_32_lady_5", "Signora Armida", "Armida", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_32_lady_6", "Signora Chola", "Chola", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000000d0820011693b142ca6a271a00000000001db6920000000000000000],
+
+	["kingdom_32_lady_7", "Signora Citha", "Citha", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_32_lady_8", "Signora Diletta", "Diletta", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000001900000542ac4e76d5d0d35300000000001e26a40000000000000000],
+
+	["kingdom_32_lady_9", "Signora Druda", "Druda", tf_female|tf_hero|tf_randomize_face|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x0000000180102006124925124928924900000000001c92890000000000000000, 0x00000001bf1000061db6d75db6b6dbad00000000001c92890000000000000000],
+
+	["kingdom_32_lady_10", "Signora Etheria", "Etheria", tf_female|tf_hero|tf_unmoveable_in_party_window, no_scene, 0, fac_kingdom_32, [itm_leather_boots], level(2)|def_attrib, wp(50), knows_riding_3|knows_common, 0x000000003a00200646a129464baaa6db00000000001de7a00000000000000000],
