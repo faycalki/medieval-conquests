@@ -132,7 +132,7 @@ Mission types that can use co-op:
 
 ## Contributing
 
-This project's custom code is licensed under MIT, all native warband code and assets are NOT covered by the MIT license.
+the MIT license pertains only to the non-Native/Taleworlds code and assets, all custom assets and code are covered by the MIT license.
 
 This module had been built on top of 1257AD's source code, with several contributors listed in the taleworlds page.
 
