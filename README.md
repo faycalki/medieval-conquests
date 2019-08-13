@@ -2,6 +2,11 @@
 
 ![Picture](https://media.moddb.com/images/mods/1/30/29657/20160816104143_1.jpg)
 
+![Picture](https://media.moddb.com/images/mods/1/30/29657/20160710093713_1.jpg)
+
+![Picture](https://media.moddb.com/cache/images/mods/1/30/29657/thumb_620x2000/20160817014210_1.jpg)
+
+
 # Medieval Conquests
 Medieval Conquests is a Medieval Ages complete overhaul for the Mount & Blade: Warband, this modification takes you back to the 13th century with a fresh new campaign and an improved networking code re-structure for viable co-operative gaming.
 
@@ -127,16 +132,11 @@ Mission types that can use co-op:
 
 ## Contributing
 
-This project is licensed under MIT, so feel free to contribute and re-release the overhaul as long as you provide credits.
+the MIT license pertains only to the non-Native/Taleworlds code and assets, all custom assets and code are covered by the MIT license.
 
 This module had been built on top of 1257AD's source code, with several contributors listed in the taleworlds page.
 
 ## Links
-
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
 - Project homepage: https://www.moddb.com/mods/medieval-conquests
 - Mirror 1: https://www.nexusmods.com/mbwarband/mods/6128
 - Mirror 2: https://forums.taleworlds.com/index.php?topic=349371.0

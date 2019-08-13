@@ -8289,7 +8289,7 @@ strings = [
 	("spearmen", "Spearmen"),
 
 	#Change Version here Angry Peasants Revision example ENVFIX ENV ADD VERSION CUSTOM CODE ADD VERSION ("revision", "0.94 - Alpha Build"),
-    ("revision", "V4.4: Levy community edition"),
+    ("revision", "V4.5: Levy community edition"),
 	
 	("manor_marketplace", "Marketplace"),
 	
